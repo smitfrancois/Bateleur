@@ -11,7 +11,8 @@ namespace Bateleur.Model
     {
         public BateleurDbContext() : base()
         {
-            
+            Database.SetInitializer<BateleurDbContext>(new DropCreateDatabaseIfModelChanges<BateleurDbContext>());
+            Database.Initialize(true);
         }
     }
 }
