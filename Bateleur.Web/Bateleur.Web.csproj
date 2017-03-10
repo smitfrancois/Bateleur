@@ -90,8 +90,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Admin\UserManagement\AddNewUser\addNewUser.controller.js" />
+    <Content Include="app\Admin\UserManagement\AddNewUser\addNewUser.directive.js" />
+    <Content Include="app\Admin\UserManagement\AddNewUser\addNewUserView.html" />
     <Content Include="app\bateleur.main.js" />
     <Content Include="app\bateleur.module.js" />
+    <Content Include="app\MainContainer\mainContainer.controller.js" />
+    <Content Include="app\MainContainer\mainContainer.directive.js" />
+    <Content Include="app\MainContainer\mainContainerView.html" />
+    <Content Include="app\MainMenu\mainMenu.controller.js" />
+    <Content Include="app\MainMenu\mainMenu.directive.js" />
+    <Content Include="app\MainMenu\mainMenuView.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
