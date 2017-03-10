@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bateleur.Model", "Bateleur.Model\Bateleur.Model.csproj", "{B3517EEE-0C63-461F-8F15-55302D2A1634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bateleur.Web", "Bateleur.Web\Bateleur.Web.csproj", "{BC873679-A83A-489C-A246-C6D5DCF19FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bateleur.API", "Bateleur.API\Bateleur.API.csproj", "{D0FCE2B5-FA1B-49A9-B218-9212CC5AA3ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bateleur.Gateway", "Bateleur.Gateway\Bateleur.Gateway.csproj", "{06032925-A9BA-4485-94D3-1A9D07B253D3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3517EEE-0C63-461F-8F15-55302D2A1634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3517EEE-0C63-461F-8F15-55302D2A1634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3517EEE-0C63-461F-8F15-55302D2A1634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3517EEE-0C63-461F-8F15-55302D2A1634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC873679-A83A-489C-A246-C6D5DCF19FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC873679-A83A-489C-A246-C6D5DCF19FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC873679-A83A-489C-A246-C6D5DCF19FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC873679-A83A-489C-A246-C6D5DCF19FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FCE2B5-FA1B-49A9-B218-9212CC5AA3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FCE2B5-FA1B-49A9-B218-9212CC5AA3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FCE2B5-FA1B-49A9-B218-9212CC5AA3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FCE2B5-FA1B-49A9-B218-9212CC5AA3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06032925-A9BA-4485-94D3-1A9D07B253D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06032925-A9BA-4485-94D3-1A9D07B253D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06032925-A9BA-4485-94D3-1A9D07B253D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06032925-A9BA-4485-94D3-1A9D07B253D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
